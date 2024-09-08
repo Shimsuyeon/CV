@@ -29,17 +29,17 @@ const Navbar = () => {
   return (
     <Bar bgColor={"transparent"}>
       <Button onClick={() => navigate(Paths.main)}>
-        <Text font={Font.GmarketSans}>글의 시각화</Text>
+        <Text font={Font.GmarketSans}>Shim Suyeon</Text>
       </Button>
       <Flex gap={"20px"}>
         <Button onClick={() => navigate(Paths.projectInfo)}>
-          <Text font={Font.GmarketSans}>소개</Text>
+          <Text font={Font.GmarketSans}>CV</Text>
         </Button>
         <Button onClick={() => navigate(Paths.bookTotal)}>
-          <Text font={Font.GmarketSans}>책장</Text>
+          <Text font={Font.GmarketSans}>Works</Text>
         </Button>
         <Button onClick={() => navigate(Paths.post)}>
-          <Text font={Font.GmarketSans}>소감 게시판</Text>
+          <Text font={Font.GmarketSans}>Projects</Text>
         </Button>
       </Flex>
     </Bar>

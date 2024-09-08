@@ -39,7 +39,7 @@ const MainPage: React.FC = () => {
                 ref={animatedItem0.ref as React.RefObject<HTMLParagraphElement>}
                 style={animatedItem0.style}
               >
-                글의 시각화
+                심수연
               </Text>
               <Spacer height="30px" />
               <Text
@@ -48,7 +48,7 @@ const MainPage: React.FC = () => {
                 ref={animatedItem1.ref as React.RefObject<HTMLParagraphElement>}
                 style={animatedItem1.style}
               >
-                책은 이를 펴보지 않으면 나무와 같다
+                옳은 길의 반대는 쉬운 길
               </Text>
             </Flex>
             <Spacer width="30px" />
