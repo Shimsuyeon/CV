@@ -5,7 +5,7 @@ enum Paths {
   booklist = "/book/gistondo",
   bookinfo = "/book/gistondo/info",
   bookRoll = "/book/gistondo/roll",
-  projectInfo = "/book/gistondo/project",
+  cv = "/CV",
   bookEdu = "/book/gistondo/edu",
   bookBurnout = "/book/gistondo/burnout",
   bookJournal = "/book/gistondo/journal",

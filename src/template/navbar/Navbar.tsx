@@ -32,7 +32,7 @@ const Navbar = () => {
         <Text font={Font.GmarketSans}>Shim Suyeon</Text>
       </Button>
       <Flex gap={"20px"}>
-        <Button onClick={() => navigate(Paths.projectInfo)}>
+        <Button onClick={() => navigate(Paths.cv)}>
           <Text font={Font.GmarketSans}>CV</Text>
         </Button>
         <Button onClick={() => navigate(Paths.bookTotal)}>
